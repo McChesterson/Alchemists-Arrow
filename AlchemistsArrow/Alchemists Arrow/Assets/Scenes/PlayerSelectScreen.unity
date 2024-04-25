@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 609126327}
   - component: {fileID: 609126326}
   m_Layer: 5
-  m_Name: Player1 (2)
+  m_Name: Player3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -370,8 +370,8 @@ GameObject:
   - component: {fileID: 673556368}
   - component: {fileID: 673556367}
   - component: {fileID: 673556366}
-  - component: {fileID: 673556371}
   - component: {fileID: 673556370}
+  - component: {fileID: 673556371}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -499,10 +499,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joinIcons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 899572779}
+  - {fileID: 813868157}
+  - {fileID: 609126326}
+  - {fileID: 1997849656}
+  player1JoinedColor: {r: 0, g: 0.1594706, b: 0.91823894, a: 0}
+  player2JoinedColor: {r: 0.7610062, g: 0, b: 0, a: 0}
+  player3JoinedColor: {r: 0, g: 0.735849, b: 0.042601414, a: 0}
+  player4JoinedColor: {r: 0.74213827, g: 0.6830886, b: 0.04434145, a: 0}
 --- !u!1 &813868155
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +519,7 @@ GameObject:
   - component: {fileID: 813868158}
   - component: {fileID: 813868157}
   m_Layer: 5
-  m_Name: Player1 (1)
+  m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +841,7 @@ GameObject:
   - component: {fileID: 1997849657}
   - component: {fileID: 1997849656}
   m_Layer: 5
-  m_Name: Player1 (3)
+  m_Name: Player4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -22,5 +22,8 @@ public class PlayerJoinManager : NetworkBehaviour
     {
         currentAvailibleSpot = 0;
     }
-
+    private void OnPlayerConnected()
+    {
+        Debug.Log("player joined");
+    }
 }
